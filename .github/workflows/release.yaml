@@ -32,8 +32,8 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: .
-          build-args: 
-            - RANDOM=true
+          build-args: |
+            RANDOM=true
           tags: |
             ${{ secrets.DOCKER_REPO }}:${{ github.ref_name }}
             ${{ secrets.DOCKER_REPO }}:latest
