@@ -3,6 +3,16 @@ entries:
   sample:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2024-08-04T09:54:35.793798379Z"
+    description: A Helm chart for Kubernetes
+    digest: 32e6adb93950cd82cf8e92d8ac2d79a908ee0ddfe95e319ae25f06f1caeb6d6a
+    name: sample
+    type: application
+    urls:
+    - https://github.com/plutocholia/sample-release/releases/download/sample-0.1.8/sample-0.1.8.tgz
+    version: 0.1.8
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2024-08-04T09:51:28.327879968Z"
     description: A Helm chart for Kubernetes
     digest: 0b4f382cf44edd541e22b5422c4817e002cf411a8304400e8013e13cd631e0b7
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/plutocholia/sample-release/releases/download/sample-0.1.7/sample-0.1.7.tgz
     version: 0.1.7
-generated: "2024-08-04T09:51:28.327890227Z"
+generated: "2024-08-04T09:54:35.793807365Z"
